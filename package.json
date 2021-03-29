@@ -1,0 +1,51 @@
+{
+  "name": "implies",
+  "version": "1.0.0",
+  "description": "Boolean logical and Bitwise \"Implies\" operators",
+  "main": "index.js",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run build",
+      "pre-push": "npm run build"
+    }
+  },
+  "scripts": {
+    "test": "nyc mocha --exit",
+    "build": "gulp",
+    "fix": "gulp fix",
+    "lint": "gulp lint",
+    "coverage": "nyc --reporter=lcov mocha --exit && cat ./coverage/lcov.info | codacy-coverage",
+    "pretty": "gulp pretty"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chronosis/implies.git"
+  },
+  "keywords": [
+    "implies",
+    "boolean",
+    "bitwise"
+  ],
+  "author": "Jay Reardon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chronosis/implies/issues"
+  },
+  "homepage": "https://github.com/chronosis/implies#readme",
+  "dependencies": {
+    "integer": "^4.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "codacy-coverage": "^3.4.0",
+    "cross-env": "^5.2.1",
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^6.0.0",
+    "gulp-mocha": "^7.0.1",
+    "gulp-prettier": "^2.1.0",
+    "husky": "^3.0.5",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1",
+    "prettier": "^1.18.2"
+  }
+}
