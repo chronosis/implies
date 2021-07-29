@@ -1,8 +1,9 @@
 {
   "name": "implies",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Boolean logical and Bitwise \"Implies\" operators",
   "main": "index.js",
+  "types": "index.d.ts",
   "husky": {
     "hooks": {
       "pre-commit": "npm run build",
