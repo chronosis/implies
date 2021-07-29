@@ -1,6 +1,6 @@
 {
   "name": "implies",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Boolean logical and Bitwise \"Implies\" operators",
   "main": "index.js",
   "types": "index.d.ts",
@@ -39,14 +39,14 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "codacy-coverage": "^3.4.0",
-    "cross-env": "^5.2.1",
+    "cross-env": "^7.0.3",
     "gulp": "^4.0.2",
     "gulp-eslint": "^6.0.0",
-    "gulp-mocha": "^7.0.1",
-    "gulp-prettier": "^2.1.0",
-    "husky": "^3.0.5",
-    "mocha": "^6.2.0",
-    "nyc": "^14.1.1",
-    "prettier": "^1.18.2"
+    "gulp-mocha": "^8.0.0",
+    "gulp-prettier": "^3.0.0",
+    "husky": "^7.0.1",
+    "mocha": "^9.0.3",
+    "nyc": "^15.1.0",
+    "prettier": "^2.3.2"
   }
 }
