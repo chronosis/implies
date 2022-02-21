@@ -45,7 +45,7 @@
     "gulp-mocha": "^8.0.0",
     "gulp-prettier": "^3.0.0",
     "husky": "^7.0.1",
-    "mocha": "^9.0.3",
+    "mocha": "^9.2.1",
     "nyc": "^15.1.0",
     "prettier": "^2.3.2"
   }
